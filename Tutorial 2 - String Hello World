@@ -1,0 +1,4 @@
+#String Hello World - Tutorial 2
+
+x = "Hello World!"
+print(x)
