@@ -1,0 +1,14 @@
+#Multi-Word Variable Names - Tutorial 7
+
+
+# Camel Case
+#(Each word, except the first, starts with a capital letter):
+myVariableName = "John Doe"
+
+# Pascal Case
+#(Each word starts with a capital letter):
+MyVariableName = "John Doe"
+
+#Snake Case
+# (Each word is seperated by an underscore character):
+my_variable_name = "John Doe"
