@@ -1,0 +1,7 @@
+#If Statement - Tutorial 4
+
+x = 3
+y = 2
+
+if (x > y):
+    print("x is greater than y")
