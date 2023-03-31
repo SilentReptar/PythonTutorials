@@ -1,0 +1,6 @@
+#Variables - Tutorial 3
+
+x = 3
+y = 2
+
+print("x =", x, "y =", y)
