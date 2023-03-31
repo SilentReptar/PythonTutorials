@@ -1,0 +1,7 @@
+#Get The Type - Tutorial 6
+
+
+x = 5
+y = "John Doe"
+
+print ("x type=",type(x), "|", "y type=",type(y))
