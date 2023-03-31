@@ -1,0 +1,9 @@
+#If Else Statement - Tutorial 8
+
+x = 3
+y = 2
+
+if (x < y):
+    print("Y is greater than X")
+else
+    print ("Y is not greater than X")
