@@ -1,0 +1,60 @@
+#Data Tpes - Tutorial 15
+
+# Built-in Data Types
+#(in programming, data type is an important concept. Variables can store data of different types, and different types can do different things.
+#python has the following data types built-in by default, in these categories):
+
+Text Type: str
+Numberic Types: int, float, complex
+Sequence types: list, tuple, range
+Mapping Type: dict
+Set Types: set, frozenset
+Boolean Type: bool
+Binary Types: bytes, bytearray, memoryview
+None Type: NoneType
+
+
+# Getting the data type
+#(You can get the type of any object by usingthe type() function):
+x = 5
+print(type(x))
+
+
+
+# Setting the data type - Dynamically set Data Types
+#(In Python, the data type is set when you assign a value to a variable):
+#Example:
+x = "Hellow world"                              - Data Type: str
+x = 20                                          - Data Type: int
+x = 20.5                                        - Data Type: float
+x = 1j                                          - Data Type: complex
+x = ["apple", "banana", "cherry"]               - Data Type: list
+x = ("apple", "banana", "cherry")               - Data Type: tuple
+x = range(6)                                    - Data Type: range
+x = {"name" : "John", "age":, 36}               - Data Type: dict
+x = {"apple", "banana", "cherry"}               - Data Type: set
+x = frozenset({"apple", "banana", "cherry"})    - Data Type: frozenset
+x = True                                        - Data Type: bool
+x = b"Hello"                                    - Data Type: bytes
+x = bytearray(5)                                - Data Type: bytearray
+x = memoryview(bytes(5))                        - Data Type: memoryview
+x = None                                        - Data Type: NoneType
+
+
+
+# Setting the Specific Data Types - Statically set Data Types
+#(If you want to specify the data type, you can use the following constructor functions):
+x = str("Hello World")                          - Data Type: str
+x = int(20)                                     - Data Type: int
+x = float(20.5)                                 - Data Type: float
+x = complex(1j)                                 - Data Type: complex
+x = list(("apple", "banana", "cherry"))         - Data Type: list
+x = tuple(("apple", "banana", "cherry"))        - Data Type: tuple
+x = range(6)                                    - Data Type: range
+x = dict(name="john",age=36)                    - Data Type: dict
+x = set(("apple", "banana", "cherry"))          - Data Type: set
+x = frozenset(("apple", "banana", "cherry"))    - Data Type: frozenset 
+x = bool(5)                                     - Data Type: bool
+x = bytes(5)                                    - Data Type: bytes
+x = bytearray(5)                                - Data Type: bytearray
+x = memoryview(bytes(5))                        - Data Type: memoryview
