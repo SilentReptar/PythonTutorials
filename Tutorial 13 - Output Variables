@@ -1,0 +1,37 @@
+#Output Variables - Tutorial 13
+
+#Example 1
+x1 = "Python is awesome"
+print ("Example 1 - stringing singular variable:")
+print (x1)
+
+print ("\n")
+
+
+
+#Example 2
+x2 = "Python"
+y2 = "is"
+z2 = "awesome"
+print ("Example 2 - stringing multiple variables by (,):")
+print (x, y, z)
+
+print ("\n")
+
+
+#Example 3
+x3 = "Python "
+y3 = "is "
+z3 = "awesome"
+print ("Example 3 - stringing multiple variables by (+ with space following each variable):")
+print (x + y + z)
+
+print ("\n")
+
+
+
+#Example 4
+x4 = 5
+y4 = "John
+print ("Example 4 - Stringing variables of different types by (,):")
+print (x4, y4)
