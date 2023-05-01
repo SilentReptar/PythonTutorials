@@ -1,0 +1,54 @@
+#Tutorial 20 - Python Modify Strings
+
+#-------------------------------------
+# Python Modify String
+#-------------------------------------
+
+#Python has a set of built-in methods that you can use on strings.
+
+
+# Upper Case
+#
+#Example - The upper() method returns the string in upper case:
+a1 = "Hello, World!";
+print(a1.upper());
+
+
+
+# Lower Case
+#
+#Example - The lower() method returns the string in lower case:
+a2 = "Hello, World!";
+print(a2.lower());
+
+
+
+# Remove Whitespace
+#
+#Whitespace is the space before and/or after the actual text,
+#and very often you want to remove this space.
+#
+#Example - The strip() method removes any whitespace from the beggining or the end:
+a3 = " Hello, World! ";
+print(a3.strip());
+
+
+
+# Replace String
+#
+#Example - The replace() method replaces a string with another string:
+a4 = "Hello, World!";
+print(a4.replace("H","J"));
+
+
+
+# Split String
+#
+#The split() method returns a list where the text between the specified spectator
+#becomes the list items.
+#
+#Example - The split() method splits the string into substrings if it finds instances
+#of the seperator:
+a5 = "Hello, World!"
+print(a5.split(",")) #returns ['Hello', 'World!']
+
